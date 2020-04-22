@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Whether you are an individual looking for how to save money on original brands you can trust from USA/ online stores, a small business looking for ways to grow your profit, a worker looking for an extra means of making money via importation, we are a shipping company you can partner with.\n\nSign up for free with Ofenetworks and get your free USA address and you can start shopping immediately to save money. All you need to do is shop on any US online store, and the store will send to your purchases to your assigned address, we receive on your behalf and will ship to Lagos Nigeria."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Ofenetworks Services Include:"
+            android:textColor="@color/colorTint"
+            app:layout_constraintStart_toStartOf="@+id/textView51"
+            app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Car Buying/Shipping"
+            android:fontFamily="@font/nunito_extrabold"
+            app:layout_constraintStart_toStartOf="@+id/textView51"
+            app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="With us you can save up to at least 45% on buying and shipping auction cars from the USA. We  can help you bid for all cars, buy, ship, clear and deliver to you while you relax. No stress! The shipping, clearing and delivery is done within 8-10 weeks."
+            app:layout_constraintEnd_toEndOf="@+id/textView51"
+            app:layout_constraintStart_toStartOf="@+id/textView60"
+            app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Amazon, Ebay and USA online purchases"
+            app:layout_constraintStart_toStartOf="@+id/textView60"
+            app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="With us you can buy from trusted portals online with your USA address when you sign up with us. We can also help you buy things online, ship and deliver to you in Nigeria within 2 business weeks."
+            app:layout_constraintEnd_toEndOf="@+id/textView64"
+            app:layout_constraintStart_toStartOf="@+id/textView64"
+            app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Machine Procurement"
+            android:fontFamily="@font/nunito_extrabold"
+            app:layout_constraintStart_toStartOf="@+id/textView65"
+            app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="We can help you handle the procurement of printing machines, spareparts and heavy duty machines. We are responsible for inspecting the machine and buy on your behalf to avoid scammed by con artists!. All you need to do is call us on phone and tell us what you want to buy from a US or China. We shall research and  provide full details of the products you need. Once you make payment, we order, ship and deliver to Lagos, Nigeria."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView67"
+            app:layout_constraintStart_toStartOf="@+id/textView67"
+            app:layout_constraintTop_toBottomOf="@+id/textView68" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorTint"
+    android:textColor="#fff">
+
+    <group android:id="@+id/card" >
+        <item
+            android:id="@+id/vCard"
+            android:title="Voters card"/>
+    </group>
+
+    <group android:id="@+id/id" >
+        <item
+            android:id="@+id/nId"
+            android:title="National I’d" />
+    </group>
+
+    <group android:id="@+id/license" >
+        <item
+            android:id="@+id/dLicense"
+            android:title="Drivers license" />
+    </group>
+
+    <group android:id="@+id/pass" >
+        <item
+            android:id="@+id/passport"
+            android:title="International Passport" />
+    </group>
+
+
+
+
+
+
+
+</menu>

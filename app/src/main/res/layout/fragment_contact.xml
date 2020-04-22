@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment">
+
+
+    <Button
+        android:id="@+id/btnWhatsApp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_whatsapp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtWhatsapp"
+        app:layout_constraintStart_toStartOf="@+id/btnInsta"
+        app:layout_constraintTop_toTopOf="@+id/txtWhatsapp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTint"
+        android:fontFamily="@font/nunito_semibold"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="20dp"
+        android:text="8432 Hillspire Drive, Douglassville, Atlanta Georgia, 30134 United States"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView34"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorTint"
+        android:fontFamily="@font/nunito_extrabold"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="Address for Ship4Me service"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/ic_gmail"
+        app:layout_constraintBottom_toBottomOf="@+id/txtMail"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toTopOf="@+id/txtMail" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:padding="8dp"
+        android:text="Contact Info"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/btnServices" />
+
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:padding="8dp"
+        android:text="contactofenetworks@gmail.com"
+        android:textColor="#0894AD"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/btnMail"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <Button
+        android:id="@+id/btnFb"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_facebook"
+        app:layout_constraintBottom_toBottomOf="@+id/txtFb"
+        app:layout_constraintStart_toStartOf="@+id/btnMail"
+        app:layout_constraintTop_toTopOf="@+id/txtFb" />
+
+    <TextView
+        android:id="@+id/txtFb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:padding="8dp"
+        android:text="Ofenetworks Global Solutions"
+        android:textColor="#0894AD"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/btnFb"
+        app:layout_constraintTop_toBottomOf="@+id/txtMail" />
+
+    <Button
+        android:id="@+id/btnInsta"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_instagram"
+        app:layout_constraintBottom_toBottomOf="@+id/txtInsta"
+        app:layout_constraintStart_toStartOf="@+id/btnFb"
+        app:layout_constraintTop_toTopOf="@+id/txtInsta" />
+
+    <TextView
+        android:id="@+id/txtInsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:padding="8dp"
+        android:text="Ofenetworks"
+        android:textColor="#0894AD"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/btnInsta"
+        app:layout_constraintTop_toBottomOf="@+id/txtFb" />
+
+    <TextView
+        android:id="@+id/txtWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:padding="8dp"
+        android:text="+2349059427238"
+        android:textColor="#0894AD"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/btnWhatsApp"
+        app:layout_constraintTop_toBottomOf="@+id/txtInsta" />
+
+    <TextView
+        android:id="@+id/txtTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Terms and Conditions"
+        android:textColor="@color/colorTint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWhatsapp"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/btnServices"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Our Services"
+        android:background="@drawable/btn_default"
+        android:textColor="#fff"
+        android:fontFamily="@font/nunito_extrabold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline51"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5" />
+
+    <Button
+        android:id="@+id/btnCarServices"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="24dp"
+        android:text="Car Shipping"
+        android:background="@drawable/btn_default"
+        android:textColor="#fff"
+        android:fontFamily="@font/nunito_extrabold"
+        app:layout_constraintEnd_toEndOf="@+id/textView33"
+        app:layout_constraintStart_toStartOf="@+id/guideline51"
+        app:layout_constraintTop_toTopOf="@+id/btnServices" />
+</androidx.constraintlayout.widget.ConstraintLayout>

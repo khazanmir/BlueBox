@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".TermFragment">-->
+
+<!--    <ScrollView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        -->
+<!--    </ScrollView>-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".TermFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center_horizontal"
+            android:text="Agreement to the Terms and Conditions"
+            android:textColor="@color/colorTint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="This Agreement is not negotiable and therefore binding on both parties once we accept your shipment. Thus, by dropping off your shipment with us or sending your shipment to us or authorizing us to pick up your shipment, you agree to all the terms and conditions herein contained. It sets forth the rights, duties and obligations and in certain cases liabilities of parties having interest in any shipment \n\nYou also agree and acknowledge that we reserve the right, at our sole discretion to change or modify these terms and conditions at any time. Please review these terms and conditions periodically, especially before sending your shipment, as your use of our service each time constitutes an acceptance of any modified terms and conditions."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1. Your Obligation"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito_extrabold"
+            app:layout_constraintStart_toStartOf="@+id/textView40"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Shipper warrants and undertakes that each article in the shipment is properly and correctly described on the shipping document, and that any export document, accepted for transport, is properly marked and addressed and packaged to protect the enclosed goods for safe transportation. \n\nYou agree to make payment in advance of shipment and agree that the shipment may be delayed or dropped totally if payment is not received 24 hours before estimated departure. "
+            app:layout_constraintEnd_toEndOf="@+id/textView40"
+            app:layout_constraintStart_toStartOf="@+id/textView42"
+            app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="bold"
+            android:text="2. Undertaking against illegal use/ Fraud "
+            app:layout_constraintStart_toStartOf="@+id/textView42"
+            app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="You undertake that the contents of all shipments are goods owned by you and obtained through legitimate means. You agree not to deliver any shipment to us that has a lien on it, or that is not lawfully owned by you, either by using a stolen credit card or false PayPal account. Anyone found guilty of this offence will be handed over to the police and imprisoned for 7 years.\n\nYou agree that goods delivered to us, later discovered to have been obtained through fraudulent or other unlawful or inappropriate means or in violation of this clause may result in the forfeiture,  along with notification to the police and/or appropriate government authorities either in the country of departure or destination, and that such goods may only be released to you upon a written authorization from the government agency."
+            app:layout_constraintEnd_toEndOf="@+id/textView44"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView46"
+            app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="3. Responsibility for Payment"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView46"
+            app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="You will always be primarily responsible for all charges, including transportation charge, possible surcharges, customs charges, duties and any other government imposed taxes, levies, fines and fees and our lawyers’ fees and other legal costs related to shipment, storage, handling, re-consignment, return of freight to shipper, disposition or other costs which we may incur by reason of your violation of this agreement or any of your default, default from the consignee or their agents. You agree to make all such payments including in circumstances where the consignee ought to but refuses to pay.\n\nYou undertake to make payment for your shipment(s) and be notified that all payments are non refundable."
+            app:layout_constraintEnd_toEndOf="@+id/textView44"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="4. Items Not Acceptable for Transportation"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="6. Force Majeure "
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Shipments are subject to inspection by government authorities or by us. Inspection shall be in accordance with laid down security controls and procedure as provided by government authorities and/ or carriers. However, we are not obligated to perform such inspection. You agree that we incur no liability for failing to carry out any inspection on your shipment."
+            app:layout_constraintEnd_toEndOf="@+id/textView44"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView47"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="We are not liable for loss, damage, delay, shortage, non-delivery, misinformation, monetary losses of any type or failure to provide information in connection with your shipment caused by events beyond our control including, acts of God; public authorities; strikes; labor disputes; weather; mechanical failures; aircraft failures and/or delays; civil commotions; acts or omissions of customs or quarantine officials; war; acts of terrorism,  defaults or omissions of the shipper or consignee or failure to observe the terms and conditions of the agreement of carriage. In case of delay by airlines or shipping line, it shall be enough for us to show that your items arrived the point of departure within reasonable time.  "
+            app:layout_constraintEnd_toEndOf="@+id/textView44"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView46"
+            app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="We make no warranties, express or implied, and expressly disclaim any and all warranties. Ofenetworks Global Solutions, its affiliates, and any third-party providers, as well as their officers, directors, shareholders, employees, and agents, do not guaranty and make no representations or warranties with respect to the accuracy, completeness, timeliness, or availability of the services. The products are provided “as is”. Neither we nor anyone else makes any warranties of any kind, expressed or implied, including, but not limited to, warranties of merchantability, quality, accuracy, or fitness for a particular purpose."
+            app:layout_constraintEnd_toEndOf="@+id/textView44"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView46"
+            app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="7. No Warranties "
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text='The consignee must note at the point of delivery, on the delivery receipt, damage (if any), to the contents of the shipment, shortage in the shipment or any other complaint. Such notations as "subject to inspection" and "subject to recount" are not exceptions. Any complaint not registered at the point of delivery shall be deemed waived.\n\n In addition, notwithstanding our commitment in ensuring that your items are delivered to you on time and within the estimated time frames as seen on our website, we reserve the right to delay shipment where the total volume of all consolidated shipments from multiple customers at each point in time is less than 100kg. Where such delays occur, you will be notified automatically by us or upon your request and you agree to hold us harmless for any delays experienced from such occurrence. '
+            app:layout_constraintEnd_toEndOf="@+id/textView44"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView46"
+            app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="8. Delivery of Shipment "
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Additional Terms and Conditions for shipments by Ocean "
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView58"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="For shipments by our Ocean service, you agree: \n\nTo pay the total shipping cost before shipping. \n\nTo pay any demurrage charges or other fees that may accrue as a result of your delay in submitting necessary documents, dropping off vehicles, or swapping vehicles during loading or after loading, or any other extra service required to effect safe shipping of your goods/cargo.\n\nThat once you are notified of the arrival of your item, and you do not take delivery of the same after 3 days, that you will pay storage charges at a rate of $0.1/pound per day, and/or at of $20 per day for cars. "
+            app:layout_constraintEnd_toEndOf="@+id/textView44"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView46"
+            app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Shop for me Service"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView62"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="24dp"
+            android:text='The Shop for me service is a part of your Shop for me account. It enables us to procure items on your behalf direct from US stores and retailers. Please note the following for all Shop for me orders: \n\nYou agree that you are fully aware and have made full enquiry on the necessary and material details relating to the item you have asked us to procure, and that you agree that our role is merely to make payment on your behalf and deliver the items to your assigned US warehouse address.\n\nYou also agree and are aware that procured items are shipped as received from your selected retailer, and that we have no obligation to open, test or verify for any latent defect in item but may take reasonably necessary steps to spot out patent damage before shipping.\n\nYou also agree that you are fully aware of the store’s return policy for defective items as well as the time limit for return of such items, and that failure to return any such item within the relevant period is at your risk.\n\nYou agree that you have verified the authenticity of the stores/site from which you want us assist you procure an item, and you agree to fully indemnify and hold us harmless against any loss or damage that may arise from purchases through a fraudulent site or store; that we reserve the right to refuse to purchase items from any store for any reason, and we do not purchase items from stores that require us to bid, except where such items have a "buy now" price that supersedes the need to bid against other customers.'
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView44"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView46"
+            app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="5. Inspection of Goods "
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView48"
+            app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="We do not ship cash or equivalent (including but not limited to cash, coin, negotiable instruments that are equivalent to cash such as traveler’s checks, money orders, etc.), originals of all forms of certificates (including educational/training certificates, share certificates, or any other forms of original certificates). We exclude all liability for shipment of such items accepted by mistake. \n\nWe do not ship prohibited items."
+            app:layout_constraintEnd_toEndOf="@+id/textView47"
+            app:layout_constraintStart_toStartOf="@+id/textView47"
+            app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

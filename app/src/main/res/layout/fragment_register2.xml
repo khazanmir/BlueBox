@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register2Fragment">
+
+
+    <Button
+        android:id="@+id/btnSelectId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/colorTint"
+        android:drawableLeft="@drawable/id_down_arrow"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="Choose ID type"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtIdName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/colorTint"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnSelectId"
+        app:layout_constraintStart_toStartOf="@+id/btnSelectId"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectId" />
+
+    <EditText
+        android:id="@+id/edtIdNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorTint"
+        android:ems="10"
+        android:hint="Id Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/edtIdName"
+        app:layout_constraintStart_toStartOf="@+id/edtIdName"
+        app:layout_constraintTop_toBottomOf="@+id/edtIdName" />
+
+    <EditText
+        android:id="@+id/edtIdAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorTint"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/edtIdNumber"
+        app:layout_constraintStart_toStartOf="@+id/edtIdNumber"
+        app:layout_constraintTop_toBottomOf="@+id/edtIdNumber" />
+
+    <TextView
+        android:id="@+id/edtIdIssue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorTint"
+        android:ems="10"
+        android:hint="Issue Date"
+        android:inputType="date"
+        android:padding="8dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtIdAddress"
+        app:layout_constraintTop_toBottomOf="@+id/edtIdSex" />
+
+    <TextView
+        android:id="@+id/edtIdExpire"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/colorTint"
+        android:ems="10"
+        android:hint="Expire Date"
+        android:inputType="date"
+        android:padding="8dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edtIdIssue"
+        app:layout_constraintEnd_toEndOf="@+id/edtIdSex"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toTopOf="@+id/edtIdIssue" />
+
+    <EditText
+        android:id="@+id/edtIdSex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorTint"
+        android:ems="10"
+        android:hint="Sex"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/edtIdAddress"
+        app:layout_constraintStart_toStartOf="@+id/edtIdAddress"
+        app:layout_constraintTop_toBottomOf="@+id/edtIdAddress" />
+
+    <ImageView
+        android:id="@+id/imgId"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="@+id/edtIdSex"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtIdSex"
+        app:layout_constraintTop_toBottomOf="@+id/txtUploadPic" />
+
+    <TextView
+        android:id="@+id/txtUploadPic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Upload picture of ID"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/edtIdSex"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="@+id/edtIdSex"
+        app:layout_constraintTop_toBottomOf="@+id/edtIdIssue" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".9" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_default"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Register"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgId"
+        app:layout_constraintStart_toStartOf="@+id/imgId"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <ImageView
+        android:id="@+id/imgId2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/add_2"
+        app:layout_constraintBottom_toBottomOf="@+id/imgId"
+        app:layout_constraintEnd_toEndOf="@+id/imgId"
+        app:layout_constraintStart_toStartOf="@+id/imgId"
+        app:layout_constraintTop_toTopOf="@+id/imgId" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".CarServiceFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center_horizontal"
+            android:text="Buy and Ship your car to Nigeria  from USA with Ofenetworks Global Solutions"
+            android:textColor="@color/colorTint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="If you are looking for a trust worthy shipping company that can ship and deliver your car in the real condition you bought it, then ofenetworks is the answer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="0dp"
+            android:layout_height="234dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/car"
+            app:layout_constraintEnd_toEndOf="@+id/textView73"
+            app:layout_constraintStart_toStartOf="@+id/textView73"
+            app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="We will give you the total cost of purchase, shipping and clearing. Once you make payment, your order will be processed. Not just that, we will ensure documentation for your car is correct and clear for you on arrival at the Nigerian ports.\n\nYou can also send email to contactofenetworks@gmail.com to place your car order. "
+            app:layout_constraintEnd_toEndOf="@+id/textView73"
+            app:layout_constraintStart_toStartOf="@+id/textView73"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="How Long Does It Take to Ship A Car?"
+            app:layout_constraintStart_toStartOf="@+id/textView74"
+            app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="●\t$1,200 ships your sedan car\n\n●\t$1600 ships your medium SUV\n\n●\t$ 2200 ships your large SUV or mini van\n\n●\tWe pick up from any location within the USA\n\n●\tShipping and delivery in 8 to 10 weeks\n\n●\tCall us on 090 594 27238 to get the shipping price."
+            app:layout_constraintEnd_toEndOf="@+id/textView74"
+            app:layout_constraintStart_toStartOf="@+id/textView75"
+            app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Where to Find Cars in USA to Buy?"
+            app:layout_constraintStart_toStartOf="@+id/textView75"
+            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="The US is one of the largest car markets in the world. With many selections for cars you can pick from luxury – Bugatti, Roll Royce, Bentley, Lamborghini, Mercedes Benz to economical products Toyota, Honda, Ford, Chevrolet and lots more. You can buy any products from America, European to Japanese brands."
+            app:layout_constraintEnd_toEndOf="@+id/textView76"
+            app:layout_constraintStart_toStartOf="@+id/textView76"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Customs Duty and Clearing Charges"
+            app:layout_constraintStart_toStartOf="@+id/textView77"
+            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="The customs duty and clearance fee vary, depending on the car, model and manufactured year. It is advised never to buy cars over 15 years.\n\nUsed vehicles will pay 40% duty.\n\nNewer vehicle that are above 2016 will attract a 40% level charge and 40% duty making it a total of 80% duty.\n\nNote: We charge 5% of the car value as our procurement cost.\n\nThese costs must be paid by individuals and businesses shipping cars in to Nigeria.\n\nNote that our clearing agents will work to ensure your cars are cleared professionally and delivered within one week  to avoid demurrage and other charges resulting from delays in clearing."
+            app:layout_constraintEnd_toEndOf="@+id/textView78"
+            app:layout_constraintStart_toStartOf="@+id/textView78"
+            app:layout_constraintTop_toBottomOf="@+id/textView79" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Easy Steps to Buy Your Car from USA Yourself"
+            app:layout_constraintStart_toStartOf="@+id/textView79"
+            app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="●\tSign up on www.ofenetworks.com to get a free USA address\n\n●\tGo to any USA online car dealer or auction site to get your preferred car.\n\n●\tThey could bring your car to our warehouse, if not, we can go pick it up for a token.\n\n●\tThen you pay for shipping to Nigeria, we clear and you pick up from Lagos."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView80"
+            app:layout_constraintStart_toStartOf="@+id/textView80"
+            app:layout_constraintTop_toBottomOf="@+id/textView81" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
